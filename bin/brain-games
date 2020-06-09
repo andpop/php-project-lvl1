@@ -1,5 +1,4 @@
 #!/usr/bin/env php
 <?php
-
-echo 'Welcome to the Brain Games!' . PHP_EOL;
+require_once 'src/Cli.php';
 
