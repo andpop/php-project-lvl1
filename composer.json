@@ -1,0 +1,11 @@
+{
+    "name": "andrey/php-project-1",
+    "description": "Brain Games from Hexlet",
+    "authors": [
+        {
+            "name": "Andrey Popov",
+            "email": "andpop@mail.ru"
+        }
+    ],
+    "require": {}
+}
