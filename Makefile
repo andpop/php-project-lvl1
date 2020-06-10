@@ -1,2 +1,3 @@
+# vim: noexpandtab
 install:
-    composer install
+	composer install
