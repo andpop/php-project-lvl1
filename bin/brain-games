@@ -13,4 +13,3 @@ if (file_exists($loadPath1)) {
 use function BrainGames\Cli\run;
 
 run();
-
