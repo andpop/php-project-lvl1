@@ -9,6 +9,6 @@ function run()
 {
     line("Welcome to the Brain Game!");
     line("");
-    $name = prompt('May I have your name?');
+    $name= prompt('May I have your name?');
     line("Hello, %s!", $name);
 }
