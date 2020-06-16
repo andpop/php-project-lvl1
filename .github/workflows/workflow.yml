@@ -1,6 +1,8 @@
 # This is a basic workflow to help you get started with Actions
 
 name: PHP-CI
+env:
+  APPLICATION_NAME: "Brain Games"
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -31,6 +33,7 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
+        echo "Application name: ${{ env.APPLICATION_NAME }}
 
   my-lint:
     runs-on: ubuntu-latest
