@@ -33,7 +33,7 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
-        echo "Application name: ${{ env.APPLICATION_NAME }}
+        echo "Application name: ${{ env.APPLICATION_NAME }}"
 
   my-lint:
     runs-on: ubuntu-latest
