@@ -1,9 +1,25 @@
 # php-project-lvl1
-## Учебный проект "Brain Games" в Hexlet
+## Учебный проект "Игры разума" в Hexlet
 
 [![Github Actions Status](https://github.com/andpop/php-project-lvl1/workflows/PHP-CI/badge.svg)](https://github.com/php-project-lvl1/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/andpop/php-project-lvl1/maintainability)
 
-Глобальная установка пакета и запуск игры "Проверка на четность":
+В проекте реализованы следующие игры:
+* "Проверка на четность", запускной файл brain-even.
+* "Калькулятор", запускной файл brain-calc.
 
-[![asciicast](https://asciinema.org/a/godIeNbdLrhxQY6UCx6z5Cs8R.svg)](https://asciinema.org/a/godIeNbdLrhxQY6UCx6z5Cs8R)
+
+### Глобальная установка пакета с помощью Composer
+Необходимо выполнить команду:
+```bash
+composer global require andpop/php-project-1
+```
+[![asciicast](https://asciinema.org/a/Pvmq8bZPlT1ymYrGPvrFjuPA8.svg)](https://asciinema.org/a/Pvmq8bZPlT1ymYrGPvrFjuPA8)
+
+
+### Запуск игры "Проверка на четность"
+[![asciicast](https://asciinema.org/a/aSXddEGdhVmK8tshAUkMXaQbZ.svg)](https://asciinema.org/a/aSXddEGdhVmK8tshAUkMXaQbZ)
+
+
+### Запуск игры "Калькулятор"
+[![asciicast](https://asciinema.org/a/g9tfvYnVlQcMbYgox58BkjF2o.svg)](https://asciinema.org/a/g9tfvYnVlQcMbYgox58BkjF2o)
