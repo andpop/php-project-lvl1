@@ -55,6 +55,7 @@ function runGame($gameDescription, $getGuess)
         if ($guess['isCorrectAnswer']) {
             showCorrectMessage();
         } else {
+            showIncorrectMessage($guess);
             break;
         }
     }
