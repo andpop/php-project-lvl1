@@ -19,10 +19,10 @@ function runCalcGame()
         $number1 = rand(1, MAX_NUMBER);
         $number2 = rand(1, MAX_NUMBER);
         $statement = "$number1 $operation $number2";
-        $operator= "\$correctAnswer = $number1 $operation $number2;";
-        
+        $operator = "\$correctAnswer = $number1 $operation $number2;";
+
         eval($operator);
-        $guess['correctAnswer'] = $correctAnswer; 
+        $guess['correctAnswer'] = $correctAnswer;
 
         line("Question: %s", $statement);
         $answer = prompt('Your answer');
