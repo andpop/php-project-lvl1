@@ -34,5 +34,4 @@ function run()
     showDescription();
     $name = getName();
     showGreeting($name);
-
 }
