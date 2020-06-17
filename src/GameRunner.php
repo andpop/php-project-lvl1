@@ -1,6 +1,6 @@
 <?php
 
-namespace BrainGames\Games\GameEngine;
+namespace BrainGames\Games\GameRunner;
 
 use function cli\line;
 use function cli\prompt;
@@ -44,7 +44,7 @@ function sayGoodbye($isCorrectAnswer, $name)
     line("%s, %s!", $message, $name);
 }
 
-function run($gameDescription, $getGuess)
+function runGame($gameDescription, $getGuess)
 {
     showDescription($gameDescription);
     $name = getName();

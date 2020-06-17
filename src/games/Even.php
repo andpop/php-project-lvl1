@@ -4,7 +4,7 @@ namespace BrainGames\Games\Even;
 
 use function cli\line;
 use function cli\prompt;
-use function BrainGames\Games\GameEngine\run;
+use function BrainGames\Games\GameRunner\runGame;
 
 const MAX_NUMBER = 100;
 const GAME_DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".';
@@ -31,5 +31,5 @@ function runEvenGame()
         return $guess;
     };
     
-    run(GAME_DESCRIPTION, $getGuess);
+    runGame(GAME_DESCRIPTION, $getGuess);
 }
