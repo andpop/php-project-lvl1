@@ -10,6 +10,6 @@ if (file_exists($loadPath1)) {
     include_once $loadPath2;
 }
 
-use function BrainGames\Games\Even\runEvenGame;
+use function BrainGames\Games\Even\run;
 
-runEvenGame();
+run();
