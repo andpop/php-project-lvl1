@@ -7,6 +7,7 @@
 В проекте реализованы следующие игры:
 * "Проверка на четность", запускной файл brain-even.
 * "Калькулятор", запускной файл brain-calc.
+* "Наибольший общий делитель", запускной файл brain-gcd.
 
 
 ### Глобальная установка пакета с помощью Composer
@@ -23,3 +24,6 @@ composer global require andpop/php-project-1
 
 ### Запуск игры "Калькулятор"
 [![asciicast](https://asciinema.org/a/g9tfvYnVlQcMbYgox58BkjF2o.svg)](https://asciinema.org/a/g9tfvYnVlQcMbYgox58BkjF2o)
+
+### Запуск игры "Наибольший общий делитель"
+[![asciicast](https://asciinema.org/a/bCPv8QwYfnyeM7D2Y0gjurQ10.svg)](https://asciinema.org/a/bCPv8QwYfnyeM7D2Y0gjurQ10)
