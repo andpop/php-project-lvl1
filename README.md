@@ -9,6 +9,7 @@
 * "Калькулятор", запускной файл brain-calc.
 * "Наибольший общий делитель", запускной файл brain-gcd.
 * "Арифметическая прогрессия", запускной файл brain-progression.
+* "Простое ли число?", запускной файл brain-prime.
 
 
 ### Глобальная установка пакета с помощью Composer
@@ -31,3 +32,5 @@ composer global require andpop/php-project-1
 
 ### Запуск игры "Арифметическая прогрессия"
 [![asciicast](https://asciinema.org/a/ZBYWvFFlrkoK5y9pJp3w4Bq3S.svg)](https://asciinema.org/a/ZBYWvFFlrkoK5y9pJp3w4Bq3S)
+
+### Запуск игры "Простое ли число?"
