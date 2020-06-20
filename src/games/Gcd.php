@@ -2,8 +2,6 @@
 
 namespace BrainGames\Games\Gcd;
 
-use function cli\line;
-use function cli\prompt;
 use function BrainGames\Games\GameRunner\runGame;
 
 const MAX_NUMBER = 100;
@@ -22,15 +20,9 @@ function runGcdGame()
         $number1 = rand(1, MAX_NUMBER);
         $number2 = rand(1, MAX_NUMBER);
 
+        $guess['question'] = "{$number1} {$number2}";
         $correctAnswer = gcd($number1, $number2);
-        $guess['correctAnswer'] = $correctAnswer;
-
-        line("Question: %d %d", $number1, $number2);
-        $answer = prompt('Your answer');
-        $answer = (int)$answer;
-
-        $guess['answer'] = $answer;
-        $guess['isCorrectAnswer'] = ($answer === $correctAnswer);
+        $guess['correctAnswer'] = (string)$correctAnswer;
 
         return $guess;
     };
