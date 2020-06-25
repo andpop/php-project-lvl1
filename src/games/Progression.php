@@ -20,7 +20,7 @@ function getProgression($start, $delta)
     return $result;
 }
 
-function progressionWithHiddenElementToString($progression, $hidedIndex)
+function getQuestion($progression, $hidedIndex)
 {
     $result = '';
     for ($i = 0; $i < count($progression); $i++) {
@@ -44,7 +44,7 @@ function runProgressionGame()
         $progression = getProgression($startElement, $deltaProgression);
         $hidedIndex = rand(0, count($progression) - 1);
 
-        $guess['question'] = progressionWithHiddenElementToString($progression, $hidedIndex);
+        $guess['question'] = getQuestion($progression, $hidedIndex);
         $guess['correctAnswer'] = (string)$progression[$hidedIndex];
         
         return $guess;
